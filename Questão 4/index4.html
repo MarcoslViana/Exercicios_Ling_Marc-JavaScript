@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <h1>Lista 1 - JavaScript</h1>
+    <div class="question">   
+        <h3>Questão 4</h3>
+        <p>
+            Crie um projeto com uma página contendo um campo de texto onde o usuário vai digitar uma temperatura em escala Celsius.
+            O que deve ser feito:
+            <br><br>
+            <ul>
+                <li>
+                    Crie duas funções, uma para converter a temperatura para Fahrenheit (converterFahrenheit)
+                    e outra para converter para Kelvin (converterKelvin).
+                </li>
+                <br>
+                <li>
+                    Crie um ouvinte de evento 'keyup' no campo de texto para atualizar os elementos do tipo span
+                    #temp-fahrenheit e #temp-kelvin com as temperaturas nas respectivas escalas à medida que o 
+                    usuário digita um valor numérico.
+                </li>
+                <br>
+                <li>
+                    Caso o usuário não tenha digitado nada ou o valor seja inválido, o valor das temperaturas após
+                    a conversão deve ser um “-”, logo abaixo deve existir uma mensagem pedindo para o usuário digitar um valor.
+                </li>
+            </ul>
+        </p>
+    </div>
+
+    <br><br><br>
+    <input type="text" id="celsiusInput" placeholder="Temperatura em Celsius">
+
+    <br>
+    <span id="tempFahrenheit"></span>
+    <span id="tempKelvin"></span>
+    <span id="aviso"></span>
+
+    <script src="index4.js"></script>
+</body>
+</html>
